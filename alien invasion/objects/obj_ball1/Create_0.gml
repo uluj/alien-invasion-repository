@@ -4,4 +4,4 @@
 //@Obj_ball1 create event
 x =obj_sprite.x
 y=obj_sprite.y
-
+alarm[1]=-1
