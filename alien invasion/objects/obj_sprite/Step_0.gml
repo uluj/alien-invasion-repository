@@ -24,7 +24,7 @@ if (keyboard_check_pressed(ord("Z")))  {
         var _new_ball1 = instance_create_layer(obj_sprite.x, obj_sprite.y, "Instances", obj_ball1);
         
          can_attack=false;
-        alarm[0] = room_speed/10;
+        alarm[0] = room_speed;
     } else {
         // Handle the case where obj_sprite doesn't exist (optional)
         show_debug_message("Error: obj_sprite instance not found.");
