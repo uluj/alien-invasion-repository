@@ -11,10 +11,18 @@ alarm[0] = -1;
 if (room == rm_menu) {
     global.box1 = instance_create_layer(18, 32, "Instances", obj_texthandlerwBox);
     global.box1.initialize("Start");
+    global.box1.initializecolor(c_white);
+    show_debug_message("global.box1 created with ID: " + string(global.box1.id));
+
     global.box2 = instance_create_layer(124, 32, "Instances", obj_texthandlerwBox);
     global.box2.initialize("Settings");
+    global.box2.initializecolor(c_white);
+    show_debug_message("global.box2 created with ID: " + string(global.box2.id));
+
     global.box3 = instance_create_layer(230, 32, "Instances", obj_texthandlerwBox);
     global.box3.initialize("Exit");
+    global.box3.initializecolor(c_white);
+    show_debug_message("global.box3 created with ID: " + string(global.box3.id));
 }
 else if (room == rm_menu2_set) {
     global.box4 = instance_create_layer(18, 32, "Instances", obj_texthandlerwBox);
