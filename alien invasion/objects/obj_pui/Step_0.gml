@@ -32,4 +32,7 @@ if (keyboard_check_pressed(ord("Z")))  {
         show_debug_message("Error: obj_sprite instance not found.");
     }
 }
+if (keyboard_check_pressed(ord("I")))  { 
+   deactivate_loader();
+}
 

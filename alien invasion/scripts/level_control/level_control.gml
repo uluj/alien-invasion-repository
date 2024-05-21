@@ -10,3 +10,15 @@ function mission2(){
 	
 	room_goto(Room3);
 }
+//only for testing
+function deactivate_loader(){
+	show_debug_message("deactivateloader fired")
+	room_goto(rm_test);
+	global.loaded=false;
+	global.skill=1;
+	//instance_destroy(obj_loader);
+	//global.loaded= true;
+//instance_create_layer(0,0,"Instances",obj_sprite);
+//obj_enemy.visible=true;
+//obj_barrier.visible=true;
+}
