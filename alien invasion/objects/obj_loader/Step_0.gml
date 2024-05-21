@@ -14,7 +14,8 @@ if (x <= 28&&_canmove1==false)
 
 if(y+16>=room_height)
 {
-instance_destroy()
+instance_destroy();
 global.loaded= true;
-instance_create_layer(x,y,layer,obj_sprite)
+instance_create_layer(x,y,layer,obj_sprite);
+instance_create_layer(x,y,layer,obj_score);
 }
