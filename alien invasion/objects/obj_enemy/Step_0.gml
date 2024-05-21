@@ -31,10 +31,3 @@ alarm[1] = random_range(180, 480); // Fire a bullet within 60-180 steps
 alarm[2]= -1;
 b_lock=false;
 }
-//check for image index to not pır
-if (_canpir==false){
-image_index=0;	
-}
-else {
-	image_index=1;
-}

@@ -1,5 +1,5 @@
 // obj_enemy Create Event
- _canpir = false;
+
 _canmove=true;
   room_speed=60;
   global.second=60;

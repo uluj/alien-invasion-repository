@@ -5,11 +5,11 @@
 
 var available = instance_number(obj_enemy);
 
-/*if(available == 0)
+if(available == 0)
 {
 	global.mission1= "Mission: you are spotted";
 	room_goto(Room3)
-}*/
+}
 
 load_score();
 alarm[0]=-1;
