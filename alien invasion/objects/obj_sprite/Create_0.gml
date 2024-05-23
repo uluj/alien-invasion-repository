@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description create event of obj_sprite
 x=room_width/2;
 y=room_height-15;
 alarm[0] =room_speed/2;
@@ -8,3 +7,4 @@ can_attack=true;
 global.time_when_z_pressed = -1; // Initialize with an invalid value
 _room_speed=120; 
 _int_to_change=0;
+_screen_middle = room_width/2;

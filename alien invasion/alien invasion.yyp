@@ -35,7 +35,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.0.137",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"alien invasion",
   "resources":[
@@ -78,8 +78,8 @@
     {"id":{"name":"Bogart_VGM___8Bit_Action__Stage_6","path":"sounds/Bogart_VGM___8Bit_Action__Stage_6/Bogart_VGM___8Bit_Action__Stage_6.yy",},},
     {"id":{"name":"Bogart_VGM___8Bit_Action__Time_is_up","path":"sounds/Bogart_VGM___8Bit_Action__Time_is_up/Bogart_VGM___8Bit_Action__Time_is_up.yy",},},
     {"id":{"name":"Bogart_VGM___8Bit_Action__Victory","path":"sounds/Bogart_VGM___8Bit_Action__Victory/Bogart_VGM___8Bit_Action__Victory.yy",},},
-    {"id":{"name":"laserShoot","path":"sounds/laserShoot/laserShoot.yy",},},
     {"id":{"name":"pickupCoin","path":"sounds/pickupCoin/pickupCoin.yy",},},
+    {"id":{"name":"snd_laser_shoot","path":"sounds/snd_laser_shoot/snd_laser_shoot.yy",},},
     {"id":{"name":"spr_1","path":"sprites/spr_1/spr_1.yy",},},
     {"id":{"name":"spr_11","path":"sprites/spr_11/spr_11.yy",},},
     {"id":{"name":"spr_14","path":"sprites/spr_14/spr_14.yy",},},

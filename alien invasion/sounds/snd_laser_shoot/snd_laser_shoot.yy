@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"laserShoot",
+  "%Name":"snd_laser_shoot",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":0.101497,
-  "name":"laserShoot",
+  "name":"snd_laser_shoot",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"laserShoot.wav",
+  "soundFile":"snd_laser_shoot.wav",
   "type":0,
   "volume":1.0,
 }

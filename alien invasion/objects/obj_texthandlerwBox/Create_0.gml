@@ -1,6 +1,6 @@
 ///@description create event of obj_texthandlerwBox
 my_font = Font1;  
-
+alarm[0]=-1;
 image_xscale = 4;  
 image_yscale = 4;  
 

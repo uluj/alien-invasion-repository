@@ -55,7 +55,7 @@
     {"name":"Bogart_VGM___8Bit_Action__Stage_5","order":1,"path":"sounds/Bogart_VGM___8Bit_Action__Stage_5/Bogart_VGM___8Bit_Action__Stage_5.yy",},
     {"name":"Bogart_VGM___8Bit_Action__Time_is_up","order":4,"path":"sounds/Bogart_VGM___8Bit_Action__Time_is_up/Bogart_VGM___8Bit_Action__Time_is_up.yy",},
     {"name":"Bogart_VGM___8Bit_Action__Victory","order":5,"path":"sounds/Bogart_VGM___8Bit_Action__Victory/Bogart_VGM___8Bit_Action__Victory.yy",},
-    {"name":"laserShoot","order":2,"path":"sounds/laserShoot/laserShoot.yy",},
+    {"name":"snd_laser_shoot","order":2,"path":"sounds/snd_laser_shoot/snd_laser_shoot.yy",},
     {"name":"spr_1","order":4,"path":"sprites/spr_1/spr_1.yy",},
     {"name":"spr_11","order":15,"path":"sprites/spr_11/spr_11.yy",},
     {"name":"spr_14","order":20,"path":"sprites/spr_14/spr_14.yy",},

@@ -3,9 +3,12 @@ y=64;
 alarm[0] = room_speed;
 _int1=16;
 _canmove1=true;
+//global.loaded =false firstly
+global.loaded=false;
 //create instances of obj_enemy with for loop and add those values of room and id to destroy
 global.instance_list_obj_enemy = ds_list_create();
-
+//global.skill for difficulty levels
+global.skill=1;//could change in final
 // Define the X and Y starting points and increments
 var x_start = 84;
 var y_start = 64;

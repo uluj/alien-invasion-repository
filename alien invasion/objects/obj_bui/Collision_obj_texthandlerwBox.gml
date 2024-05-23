@@ -14,12 +14,18 @@ if (room == rm_menu) {
     if (other.id == global.box1) {
         show_debug_message("Collision with global.box1 detected.");
         global.box1.initializecolor(c_red);
+		obj_texthandlerwBox.alarm[0]=10;
+		global._whichboxcheck=1;
     } else if (other.id == global.box2) {
         show_debug_message("Collision with global.box2 detected.");
         global.box2.initializecolor(c_red);
+		obj_texthandlerwBox.alarm[0]=10;
+		global._whichboxcheck=2;
     } else if (other.id == global.box3) {
         show_debug_message("Collision with global.box3 detected.");
         global.box3.initializecolor(c_red);
+		obj_texthandlerwBox.alarm[0]=10;
+		global._whichboxcheck=3;
 	
     } else {
         show_debug_message("Collision with an unidentified object in rm_menu.");
