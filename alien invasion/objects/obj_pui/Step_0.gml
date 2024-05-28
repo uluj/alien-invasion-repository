@@ -1,0 +1,41 @@
+/// @description Insert description here
+// You can write your code in this editor
+/// @description Insert description here
+// You can write your code in this editor
+if (keyboard_check(vk_right)&&x<=room_width-8){
+x+=3;
+//sprite_index= spr_sprite_walk;
+}
+else if (keyboard_check(vk_left)&&x>=8){
+x-=3;
+//sprite_index= spr_sprite_walk;
+}
+/*else if (keyboard_check(vk_up)){
+y-=3;
+//sprite_index= spr_sprite_walk;
+}
+else if (keyboard_check(vk_down)){
+y+=3;
+//sprite_index= spr_sprite_walk;
+}
+else{
+//sprite_index= spr_sprite_idle;
+}*/
+if (keyboard_check_pressed(ord("Z")))  { 
+    if (instance_exists(obj_pui)&&can_attack2) { // Check for obj_sprite instance
+        var _new_ball1 = instance_create_layer(obj_pui.x, obj_pui.y, "Instances", obj_bui);
+      
+	  var sound_instance;
+sound_instance = audio_play_sound(snd_laser_shoot, 1, false, global.soundgain);
+
+         can_attack2=false;
+        alarm[0] = 30;
+    } else {
+        // Handle the case where obj_sprite doesn't exist (optional)
+        show_debug_message("Error: obj_sprite instance not found.");
+    }
+}
+if (keyboard_check_pressed(ord("I")))  { 
+   deactivate_loader();
+}
+

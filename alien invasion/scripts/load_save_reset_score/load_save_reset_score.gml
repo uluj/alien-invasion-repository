@@ -8,6 +8,9 @@ function load_score(){
     ini_open(ini_file);
     global.score = ini_read_real("GameData", "Score", 0); // Default to 0 if not found
     ini_close();
+	if (global._index1==1){
+		
+	}
 }
 
 //reset fucntion

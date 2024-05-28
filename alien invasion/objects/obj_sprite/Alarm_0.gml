@@ -1,3 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description ALarm event for obj_sprite
+
 can_attack=true;
