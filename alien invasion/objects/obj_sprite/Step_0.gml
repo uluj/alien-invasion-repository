@@ -30,13 +30,11 @@ else{
         var _new_ball1 = instance_create_layer(obj_sprite.x, obj_sprite.y, "Instances", obj_ball1);
         can_attack=true;
 		
-		// Calculate the pan value based on obj_sprite's position
-            var _pan_value = (x - _screen_middle) / _screen_middle;
-            _pan_value = clamp(_pan_value, -1, 1);
+
 		
 		// Play the laserShoot sound with the calculated pan value
      var _sound_index = audio_play_sound(snd_laser_shoot, 1, false);
-            audio_sound_set_track_position(_sound_index, _pan_value); // Set panning
+ 
    
 
 		 if (30<=_room_speed+_int_to_change<=120){

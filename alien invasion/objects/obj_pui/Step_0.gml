@@ -24,7 +24,10 @@ else{
 if (keyboard_check_pressed(ord("Z")))  { 
     if (instance_exists(obj_pui)&&can_attack2) { // Check for obj_sprite instance
         var _new_ball1 = instance_create_layer(obj_pui.x, obj_pui.y, "Instances", obj_bui);
-        
+      
+	  var sound_instance;
+sound_instance = audio_play_sound(snd_laser_shoot, 1, false, global.soundgain);
+
          can_attack2=false;
         alarm[0] = 30;
     } else {
