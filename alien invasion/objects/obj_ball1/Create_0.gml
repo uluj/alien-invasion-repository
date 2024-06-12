@@ -5,3 +5,4 @@
 x =obj_sprite.x
 y=obj_sprite.y
 alarm[1]=-1
+a_lock=true;

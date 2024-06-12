@@ -1,4 +1,6 @@
 /// @description create event of obj_sprite
+global.hit=0;
+global.hit1=0;
 x=room_width/2;
 y=room_height-15;
 alarm[0] =room_speed/2;
