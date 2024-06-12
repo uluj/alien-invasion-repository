@@ -10,8 +10,8 @@
   "name":"o_boss",
   "overriddenProperties":[],
   "parent":{
-    "name":"rm_test_1",
-    "path":"folders/Objects/rm_test_1.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
