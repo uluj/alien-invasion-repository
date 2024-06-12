@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pui",
+  "%Name":"o_boss",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":97,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pui",
+  "name":"o_boss",
   "overriddenProperties":[],
   "parent":{
-    "name":"uigroup",
-    "path":"folders/Objects/uigroup.yy",
+    "name":"rm_test_1",
+    "path":"folders/Objects/rm_test_1.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_chr",
-    "path":"sprites/spr_chr/spr_chr.yy",
+    "name":"spr_11",
+    "path":"sprites/spr_11/spr_11.yy",
   },
   "spriteMaskId":null,
   "visible":true,

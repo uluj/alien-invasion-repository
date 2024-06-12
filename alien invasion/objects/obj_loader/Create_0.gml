@@ -1,3 +1,5 @@
+game_set_speed(60, gamespeed_fps);
+_int=0;
 x = 28 ;
 y=64;
 alarm[0] = room_speed;
@@ -54,4 +56,6 @@ for (var i = 0; i < array_length(coordinates); i++) {
     ds_map_add(info, "room", room);
     ds_list_add(global.instance_list_obj_enemy, info);
 }
+audio_pause_sound(menuselect);
+debug_overlay_enabled = false;
 
