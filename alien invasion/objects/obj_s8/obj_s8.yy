@@ -9,7 +9,10 @@
     "name":"signifiers",
     "path":"folders/Objects/uigroup/signifiers.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Object31",
+    "path":"objects/Object31/Object31.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

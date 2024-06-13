@@ -49,6 +49,7 @@
     {"name":"obj_sprite","order":7,"path":"objects/obj_sprite/obj_sprite.yy",},
     {"name":"obj_texthandlerwBox_1","order":4,"path":"objects/obj_texthandlerwBox_1/obj_texthandlerwBox_1.yy",},
     {"name":"obj_texthandlerwBox","order":3,"path":"objects/obj_texthandlerwBox/obj_texthandlerwBox.yy",},
+    {"name":"Object31","order":13,"path":"objects/Object31/Object31.yy",},
     {"name":"timer","order":8,"path":"objects/timer/timer.yy",},
     {"name":"rm_menu2_set","order":1,"path":"rooms/rm_menu2_set/rm_menu2_set.yy",},
     {"name":"rm_menu3_sound","order":2,"path":"rooms/rm_menu3_sound/rm_menu3_sound.yy",},

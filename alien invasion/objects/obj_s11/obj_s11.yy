@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_s11",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_s11",
   "overriddenProperties":[],
@@ -11,7 +9,10 @@
     "name":"signifiers",
     "path":"folders/Objects/uigroup/signifiers.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Object31",
+    "path":"objects/Object31/Object31.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

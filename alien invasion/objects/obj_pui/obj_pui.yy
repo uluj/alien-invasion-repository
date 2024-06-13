@@ -28,7 +28,10 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"box_height","filters":[],"listItems":[],"multiselect":false,"name":"box_height","rangeEnabled":false,"rangeMax":384.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"240","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"offset","filters":[],"listItems":[],"multiselect":false,"name":"offset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"36","varType":1,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_s5",
-  "eventList":[],
+  "%Name":"Object31",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_s5",
+  "name":"Object31",
   "overriddenProperties":[],
   "parent":{
     "name":"signifiers",
     "path":"folders/Objects/uigroup/signifiers.yy",
   },
-  "parentObjectId":{
-    "name":"Object31",
-    "path":"objects/Object31/Object31.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -26,14 +25,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"offset2","filters":[],"listItems":[],"multiselect":false,"name":"offset2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"230","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite16",
-    "path":"sprites/Sprite16/Sprite16.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
